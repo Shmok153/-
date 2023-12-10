@@ -1,0 +1,50 @@
+```html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamukh Nasser Al-Behairi</title>
+    <script>
+        function showAlert() {
+            alert('هذا اختبار عملي تقنيه رقميه 2-2');
+        }
+    </script>
+    <style>
+        .green {
+            color: green;
+            font-size: large;
+        }
+        .blue {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="green">نحو الفضاء</h1>
+    <p class="blue">تشهد المملكة العربية السعودية قفزة جديدة في رحلة، بعد سباقة سجلها الأمير سلطان بن سلمان عام 1985، ينطلق ريانه برناوي وعلي القرني إلى الفضاء في مهمة خاصة تنظمها شركة "اكسيوم سبيس" إلى محطة الفضاء الدولية الرائدين 2030، تحقيق رؤية.</p>
+    <img src="image.jpg" alt="Image" width="500" height="300">
+    <table>
+        <tr>
+            <th>تاريخ الرحلة</th>
+            <th>أسماء رواد الفضاء الراحلين</th>
+        </tr>
+        <tr>
+            <td>تاريخ الرحلة 1</td>
+            <td>أسماء رواد الفضاء الراحلين 1</td>
+        </tr>
+        <tr>
+            <td>تاريخ الرحلة 2</td>
+            <td>أسماء رواد الفضاء الراحلين 2</td>
+        </tr>
+    </table>
+    <script>
+        function showTime() {
+            var date = new Date();
+            document.write(date.toLocaleString());
+        }
+        showTime();
+    </script>
+</body>
+</html>
+```
